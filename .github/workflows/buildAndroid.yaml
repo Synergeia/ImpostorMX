@@ -37,9 +37,9 @@ jobs:
       - name: Create key.properties
         run: |
           cat > android/key.properties << EOF
-          storePassword='android'
-          keyPassword='android'
-          keyAlias='androiddebugkey'
+          storePassword=android
+          keyPassword=android
+          keyAlias=androiddebugkey
           storeFile=keystore.jks
           EOF
 
