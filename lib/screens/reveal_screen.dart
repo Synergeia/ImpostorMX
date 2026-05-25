@@ -615,7 +615,7 @@ class _CivilianContent extends StatelessWidget {
         ),
         SizedBox(height: cardHeight * 0.04),
         Text(
-          'СЕКРЕТНОЕ ПОСЛАНИЕ',
+          'ТАЙНОЕ ПОСЛАНИЕ',
           style: TextStyle(
             fontFamily: 'YoungSerif',
             fontSize: cardWidth * 0.055,
@@ -649,6 +649,7 @@ class _ImpostorContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Stack(
+      alignment: Alignment.center,
       children: [
         // Glitch scan-line decorative effect
         CustomPaint(
