@@ -6,39 +6,39 @@ const Map<String, String> ru = {
   'txt_support': 'Поддержать разработку!',
   'txt_version': 'v2.1 Open Source - by Retired64',
   'btn_kofi': 'Купите мне кофе',
-  'txt_choose_theme': 'Выбрать тему',
-  'txt_cards': 'карты',
+  'txt_choose_theme': 'Выберите тему',
+  'txt_cards': 'карт',
   'btn_edit': 'Редактировать',
   'btn_delete': 'Удалить',
 
   // Tutorial
   'tut_step1_title': 'ШАГ 1',
   'tut_step1_desc':
-      'Choose a thematic category to play. Use the Settings button (⚙️) to create your own!',
+      'Выберите тематическую категорию для игры или используйте кнопку Настройки (⚙️) чтобы создать свою!',
   'tut_step2_title': 'ШАГ 2',
   'tut_step2_desc':
-      'Pass the phone so everyone can set their name and PIN. Once done, tap continue and set the number of Impostors. You can also set the debate time and custom roulette punishments there.',
+      '«Передай телефон, чтобы каждый придумал себе имя и ПИН. Когда все готовы — жми ПРОДОЛЖИТЬ и выбери, сколько будет Самозванцев. Там же можно настроить время обсуждения и придумать свои прикольные наказания в рулетке.',
   'tut_step3_title': 'ШАГ 3',
   'tut_step3_desc':
-      'Pass the phone. Each player must enter their PIN to see their secret word, but... The Impostor will see nothing!',
+      'Снова передай телефон. Каждый игрок должен ввести свой ПИН, чтобы увидеть своё тайное слово… но Самозванец не увидит ничего!',
   'tut_step4_title': 'ШАГ 4',
   'tut_step4_desc':
-      'Time to debate! Ask questions and describe your word without being too obvious to avoid helping the Impostor.',
+      'Время для обсуждений! Задавайте вопросы и описывайте своё слово так, чтобы это не было слишком очевидным — иначе вы поможете Самозванцу!',
   'tut_step5_title': 'ШАГ 5',
   'tut_step5_desc':
-      'When time is up, vote for who you think is lying. If you catch the Impostor, the civilians win! If the Impostor survives, they win! The loser will have to spin the punishment roulette... Good luck!',
+      'Когда время истечёт, голосуйте за того, кого считаете лжецом. Если поймаете Самозванца — победа за мирными! Если Самозванец выживет — победа его! Проигравший должен будет крутить рулетку наказаний… Удачи!',
   'tut_btn_next': 'ДАЛЬШЕ',
   'tut_btn_finish': 'КОНЕЦ',
 
   // Create Category Screen
-  'create_title_edit': 'Edit',
-  'create_title_new': 'Create',
-  'create_input_name': 'Name',
-  'create_input_emoji': 'Emoji',
-  'create_words_title': 'Words',
-  'create_input_word': 'Word...',
-  'create_min_words': 'Minimum 5 words',
-  'create_btn_save': 'SAVE',
+  'create_title_edit': 'Редактировать',
+  'create_title_new': 'Создать',
+  'create_input_name': 'Имя',
+  'create_input_emoji': 'Эмоджи',
+  'create_words_title': 'Слова',
+  'create_input_word': 'Слово...',
+  'create_min_words': 'Миниму 5 слов',
+  'create_btn_save': 'СОХРАНИТЬ',
 
   // Config Screen
   'config_title': 'Настройки',
@@ -51,52 +51,52 @@ const Map<String, String> ru = {
   'players_title': 'Игроки',
   'players_btn_continue': 'ПРОДОЛЖИТЬ',
   'players_input_name': 'Имя',
-  'players_input_pin': 'ПИН-код',
+  'players_input_pin': 'ПИН',
 
   // Punishments Screen
-  'punishments_title': 'Edit Punishments',
-  'punishments_input_hint': 'New punishment (e.g.: Buy the pizza)',
-  'punishments_swipe_delete': 'Swipe to delete',
-  'punishments_restore_title': 'Restore?',
+  'punishments_title': 'Редактировать наказания',
+  'punishments_input_hint': 'Новое наказание (например: Заказать пиццу)',
+  'punishments_swipe_delete': 'Смахните для удаления',
+  'punishments_restore_title': 'Восстановить?',
   'punishments_restore_desc':
       'Your custom punishments will be deleted and the original ones will return.',
-  'punishments_btn_cancel': 'CANCEL',
-  'punishments_btn_restore': 'RESTORE',
+  'punishments_btn_cancel': 'ОТМЕНА',
+  'punishments_btn_restore': 'ВОССТАНОВИТЬ',
 
   // Result Screen
-  'result_win_civilians': 'CIVILIANS WIN!',
-  'result_win_impostor': 'IMPOSTOR WINS!',
-  'result_punish_impostor': 'Punishment for the IMPOSTOR',
-  'result_punish_civilians': 'Punishment for CIVILIANS',
-  'result_btn_exit': 'EXIT',
-  'result_btn_play_again': 'PLAY AGAIN',
-  'result_btn_spin': 'SPIN ROULETTE',
-  'result_luck': 'GOOD LUCK!',
-  'result_your_punishment': '🔥 YOUR PUNISHMENT 🔥',
-  'result_btn_accept': 'ACCEPT',
+  'result_win_civilians': 'МИРНЫЕ ПОБЕДИЛИ!',
+  'result_win_impostor': 'САМОЗВАНЦЫ ПОБЕДИЛИ!',
+  'result_punish_impostor': 'Наказание для САМОЗВАНЦЕВ',
+  'result_punish_civilians': 'Наказание для МИРНЫХ',
+  'result_btn_exit': 'ВЫХОД',
+  'result_btn_play_again': 'СЫГРАТЬ СНОВА',
+  'result_btn_spin': 'КРУТИТЬ РУЛЕТКУ',
+  'result_luck': 'УДАЧИ!',
+  'result_your_punishment': '🔥 ВАШЕ НАКАЗАНИЕ 🔥',
+  'result_btn_accept': 'ПРИНЯТЬ',
 
   // Reveal Screen
-  'reveal_hold': 'PRESS AND HOLD',
-  'reveal_to_see': 'to see your secret card',
-  'reveal_impostor': 'IMPOSTOR',
-  'reveal_civilian': 'CIVILIAN',
-  'reveal_deceive': 'Deceive everyone',
-  'reveal_top_secret': 'TOP SECRET',
-  'reveal_btn_continue': 'CONTINUE',
+  'reveal_hold': 'УДЕРЖИВАЙТЕ',
+  'reveal_to_see': 'чтобы увидеть карту',
+  'reveal_impostor': 'САМОЗВАНЕЦ',
+  'reveal_civilian': 'МИРНЫЙ',
+  'reveal_deceive': 'Обмани всех',
+  'reveal_top_secret': 'СВЕРХСЕКРЕТНО',
+  'reveal_btn_continue': 'ПРОДОЛЖИТЬ',
 
   // Timer Screen
-  'timer_time_up': 'TIME UP',
-  'timer_btn_vote': 'VOTE',
-  'timer_debate': 'DEBATE',
+  'timer_time_up': 'ВРЕМЯ ВЫШЛО',
+  'timer_btn_vote': 'ГОЛОСОВАТЬ',
+  'timer_debate': 'ОБСУЖДЕНИЕ',
 
   // Voting Screen
-  'voting_title': 'Who is lying?',
-  'voting_confirm_title': 'Vote for [NAME]?',
-  'voting_btn_cancel': 'CANCEL',
-  'voting_btn_confirm': 'CONFIRM',
+  'voting_title': 'Кто обманывает?',
+  'voting_confirm_title': 'Голос против [NAME]?',
+  'voting_btn_cancel': 'ОТМЕНА',
+  'voting_btn_confirm': 'ПОДТВЕРДИТЬ',
 
   // Login Screen
-  'login_turn_of': 'Turn of',
+  'login_turn_of': 'Ход',
 };
 
 const List<String> defaultPunishmentsRu = [
@@ -107,9 +107,9 @@ const List<String> defaultPunishmentsRu = [
   "🐔 Изображайте курицу, высиживаюшую яйцо",
   "🧊 Рассасывайте кубик льда до тех пор, пока он не растает",
   "🎤 Спойте хором вашу любимую песню",
-  "😳 Confess your weirdest guilty pleasure",
-  "📸 Post a selfie making a funny face",
-  "🤫 Stay completely silent for the next round",
-  "🤸 Do 5 push-ups",
-  "🫂 Hug the player to your right",
+  "😳 Признайся в своей самой странной тайной слабости",
+  "📸 Запости селфи с забавной рожей",
+  "🤫 Полностью молчи следующий раунд",
+  "🤸 Сделай 5 отжиманий",
+  "🫂 Обними игрока справа",
 ];
