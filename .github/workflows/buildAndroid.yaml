@@ -24,16 +24,22 @@ jobs:
           channel: 'stable'
           cache: true
 
-      - name: Decode Keystore
+      - name: Generate Debug Keystore
         run: |
-          echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 -d > android/app/keystore.jks
+              keytool -genkeypair -v \
+              -keystore android/app/keystore.jks \
+              -storepass android \
+              -keypass android \
+              -alias androiddebugkey \
+              -keyalg RSA -keysize 2048 -validity 10000 \
+              -dname "CN=Android,O=Debug,C=US"
 
       - name: Create key.properties
         run: |
           cat > android/key.properties << EOF
-          storePassword=${{ secrets.KEYSTORE_PASSWORD }}
-          keyPassword=${{ secrets.KEY_PASSWORD }}
-          keyAlias=${{ secrets.KEY_ALIAS }}
+          storePassword='android'
+          keyPassword='android'
+          keyAlias='androiddebugkey'
           storeFile=keystore.jks
           EOF
 
