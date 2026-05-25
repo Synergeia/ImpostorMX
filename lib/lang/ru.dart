@@ -59,7 +59,7 @@ const Map<String, String> ru = {
   'punishments_swipe_delete': 'Смахните для удаления',
   'punishments_restore_title': 'Восстановить?',
   'punishments_restore_desc':
-      'Your custom punishments will be deleted and the original ones will return.',
+      'Ваши наказания будут удалены и восстановлены оригинальные',
   'punishments_btn_cancel': 'ОТМЕНА',
   'punishments_btn_restore': 'ВОССТАНОВИТЬ',
 
@@ -69,16 +69,16 @@ const Map<String, String> ru = {
   'result_punish_impostor': 'Наказание для САМОЗВАНЦЕВ',
   'result_punish_civilians': 'Наказание для МИРНЫХ',
   'result_btn_exit': 'ВЫХОД',
-  'result_btn_play_again': 'СЫГРАТЬ СНОВА',
+  'result_btn_play_again': 'ЕЩЁ РАЗ',
   'result_btn_spin': 'КРУТИТЬ РУЛЕТКУ',
   'result_luck': 'УДАЧИ!',
-  'result_your_punishment': '🔥 ВАШЕ НАКАЗАНИЕ 🔥',
+  'result_your_punishment': '🔥 НАКАЗАНИЕ 🔥',
   'result_btn_accept': 'ПРИНЯТЬ',
 
   // Reveal Screen
   'reveal_hold': 'УДЕРЖИВАЙТЕ',
   'reveal_to_see': 'чтобы увидеть карту',
-  'reveal_impostor': 'САМОЗВАНЕЦ',
+  'reveal_impostor': 'ЛЖЕЦ',
   'reveal_civilian': 'МИРНЫЙ',
   'reveal_deceive': 'Обмани всех',
   'reveal_top_secret': 'СВЕРХСЕКРЕТНО',
@@ -91,12 +91,12 @@ const Map<String, String> ru = {
 
   // Voting Screen
   'voting_title': 'Кто обманывает?',
-  'voting_confirm_title': 'Голос против [NAME]?',
+  'voting_confirm_title': 'Лжец [NAME]?',
   'voting_btn_cancel': 'ОТМЕНА',
   'voting_btn_confirm': 'ПОДТВЕРДИТЬ',
 
   // Login Screen
-  'login_turn_of': 'Ход',
+  'login_turn_of': 'Вход',
 };
 
 const List<String> defaultPunishmentsRu = [
