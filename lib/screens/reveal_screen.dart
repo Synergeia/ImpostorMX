@@ -615,7 +615,7 @@ class _CivilianContent extends StatelessWidget {
         ),
         SizedBox(height: cardHeight * 0.04),
         Text(
-          'СЕКРЕТНОЕ СЛОВО',
+          'СЕКРЕТНОЕ ПОСЛАНИЕ',
           style: TextStyle(
             fontFamily: 'YoungSerif',
             fontSize: cardWidth * 0.055,
