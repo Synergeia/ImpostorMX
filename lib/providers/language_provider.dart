@@ -17,7 +17,7 @@ class LanguageProvider extends ChangeNotifier {
   static const String _prefsKey = 'user_language';
 
   // Idioma por defecto al iniciar (antes de detectar)
-  String _currentLanguage = 'es';
+  String _currentLanguage = 'ru';
 
   // Getter para obtener el código del idioma actual ('es', 'en', 'pt')
   String get currentLanguage => _currentLanguage;
