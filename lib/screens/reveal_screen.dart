@@ -601,7 +601,7 @@ class _CivilianContent extends StatelessWidget {
             child: FittedBox(
               fit: BoxFit.scaleDown,
               child: Text(
-                secretWord.toUpperCase(),
+                secretWord.toUpperCase().replaceAll(' ', '\n'),
                 style: TextStyle(
                   fontFamily: 'Bungee',
                   fontSize: cardWidth * 0.13,
