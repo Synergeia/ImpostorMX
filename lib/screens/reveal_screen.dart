@@ -598,18 +598,21 @@ class _CivilianContent extends StatelessWidget {
                 width: 1,
               ),
             ),
-            child: Text(
-              secretWord.toUpperCase(),
-              style: TextStyle(
-                fontFamily: 'Bungee',
-                fontSize: cardWidth * 0.13,
-                color: Colors.white,
-                letterSpacing: 3,
-                shadows: [
-                  Shadow(color: roleColor.withOpacity(0.4), blurRadius: 16),
+            child: FittedBox(
+              fit: BoxFit.scaleDown,
+              child: Text(
+                secretWord.toUpperCase(),
+                style: TextStyle(
+                  fontFamily: 'Bungee',
+                  fontSize: cardWidth * 0.13,
+                  color: Colors.white,
+                  letterSpacing: 3,
+                  shadows: [
+                    Shadow(color: roleColor.withOpacity(0.4), blurRadius: 16),
                 ],
               ),
               textAlign: TextAlign.center,
+              ),
             ),
           ),
         ),
